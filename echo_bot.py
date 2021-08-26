@@ -23,7 +23,10 @@ def handle_help(message):
 @bot.message_handler(func=lambda message: True, content_types=['text'])
 def handle_text(message):
     if message.text == "Аленка": 
-       bot.send_message(message.from_user.id, "Поверь мир прекрасен!")
+       response = requests.get('http://free-generator.ru/generator.php?action=compliment&pol=1&type=2')
+       data = response.json()
+       compliment = data["compliment"]
+       bot.send_message(message.from_user.id, compliment["compliment"])
     else:
        #       bot.reply_to(message, 'А здесь бот выдает умные мысли')  
        response = requests.request("POST", url)
