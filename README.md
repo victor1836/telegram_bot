@@ -27,3 +27,14 @@ It is generally recommended to use the first option.
 *While the API is production-ready, it is still under development and it has regular updates, 
 do not forget to update it regularly by calling 
 pip install pytelegrambotapi --upgrade
+
+-------------------------------------------------------------------------------------------------
+https://castlots.org/generator-komplimentov-devushke/
+https://castlots.org/generator-komplimentov-devushke/generate.php
+Accept: application/json, text/javascript, */*; q=0.01
+-------------------------------------------------------------------------------------------------
+генератор фраз
+https://fish-text.ru/api
+FishText API – РыбаТекст (https://fish-text.ru/api)
+curl -X POST https://fish-text.ru/get?format=html&number=1
+
