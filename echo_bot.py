@@ -1,9 +1,10 @@
 # -*- coding: utf-8 -*-
+import config
 import telebot
 from telebot import types
 import requests
 
-bot = telebot.TeleBot("1919563245:AAEBEBAxcI6f5z2GO4k1loaKseUka1tlmGE")
+bot = telebot.TeleBot(config.token)
 url = "https://fish-text.ru/get?format=html&number=1"
 
 markup = types.ReplyKeyboardMarkup(row_width=1)
