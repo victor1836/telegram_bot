@@ -1,0 +1,2 @@
+{"POST":{"scheme":"https","host":"castlots.org","filename":"/generator-komplimentov-devushke/generate.php","remote":{"Адрес":"104.236.237.27:443"}}}
+ответ json
