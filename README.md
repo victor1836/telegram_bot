@@ -8,7 +8,7 @@ Use this token to access the HTTP API:
 For a description of the Bot API, see this page: https://core.telegram.org/bots/api
 
 ----------------------------------------------------------------------------------------------------
-
+Для работы бота используем готовую библиотеку  pyTelegramBotAPI
 This API is tested with Python Python 3.6-3.9 and Pypy 3. There are two ways to install the library:
 
 Installation using pip (a Python package manager)*:

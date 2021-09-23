@@ -7,7 +7,7 @@ import requests
 bot = telebot.TeleBot(config.token)
 url = "https://fish-text.ru/get?format=html&number=1"
 
-markup = types.ReplyKeyboardMarkup(row_width=1)
+markup = types.ReplyKeyboardMarkup(row_width=2,resize_keyboard=True)
 itembtn1 = types.KeyboardButton('Фраза для отчета')
 itembtn2 = types.KeyboardButton('Аленка')
 markup.add(itembtn1, itembtn2)
